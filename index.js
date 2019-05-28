@@ -17,12 +17,10 @@ function johnLennonFacts(facts) {
 }
 function iLoveTheBeatles(number) {
   var texts = []
-  //var stmnt = "I love the Beatles!"
   var sntnc 
   if (number === 7) {
     var i = 0
    do {
-   //var i = 0
    texts.push("I love the Beatles!") 
    i++
    }
