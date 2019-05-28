@@ -19,14 +19,14 @@ function iLoveTheBeatles(number) {
   var texts = []
   //var stmnt = "I love the Beatles!"
   var sntnc 
-  if (number.length === 7) {
+  if (number === 7) {
     var i = 0
    do {
    //var i = 0
    texts.push("I love the Beatles!") 
    i++
    }
-   while (i <= number.length) 
+   while (i <= number) 
    sntnc = texts 
   }
   else {
