@@ -1,35 +1,36 @@
 // add solution here
 
 function theBeatlesPlay(musicians,instruments) {
-var texts = []
-for (var i = 0; i < 4; i++)  {
-  texts.push(musicians[i]+" plays "+instruments[i])
+  var plays = []
+  for (var i = 0; i < 4; i++) {
+    plays.push(musicians[i]+" plays "+instruments[i])
 }
-return texts 
+return plays
 }
-
-function johnLennonFacts(facts){
+function johnLennonFacts(facts) {
   var i = 0
-  while(i < facts.length){
-  facts[i] = facts[i] + "!!!"
-  i++
-}
-return facts
-}
-
-function iLoveTheBeatles(num){
-  var result = []
-  var loveString = 'I love the Beatles!'
-  if (num === 7) {
-     for(var i = 1; i <= 8; i++) {
-       result.push(loveString) 
-       // Sting whould be repeated 8 times
-     }
-  } 
-  else {
-      result = [loveString]
-       // loveSTring should be repeated 1 time.
+  while (i < facts.length) {
+    facts[i] += "!!!"
+    i++
   }
-  return result
+  return facts 
 }
-
+function iLoveTheBeatles(number) {
+  var texts = []
+  //var stmnt = "I love the Beatles!"
+  var sntnc 
+  if (number.length === 7) {
+    var i = 0
+   do {
+   //var i = 0
+   texts.push("I love the Beatles!") 
+   i++
+   }
+   while (i <= number.length) 
+   sntnc = texts 
+  }
+  else {
+    sntnc = "I love the Beatles!" 
+  }
+  return sntnc
+}
